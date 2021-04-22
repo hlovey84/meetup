@@ -1,0 +1,18 @@
+
+{
+    "development": {
+        "storage": "./resources/database.sqlite",
+        "database": "meetups_dev",
+        "dialect": "sqlite"
+    },
+    "test": {
+      "storage": "./resources/database.sqlite",
+      "database": "meetups_test",
+      "dialect": "sqlite"
+    },
+    "production": {
+      "storage": "./resources/database.sqlite",
+      "database": "meetups_prod",
+      "dialect": "sqlite"
+    }
+  }
